@@ -13,13 +13,9 @@ Recomenda-se usar um ambiente virtual para isolar as dependências do projeto. V
 
 ### Para usuários de Linux/Mac:
 
-bashCopy code
-
 `python3 -m venv venv source venv/bin/activate`
 
 ### Para usuários de Windows:
-
-bashCopy code
 
 `python -m venv venv .\venv\Scripts\activate`
 
@@ -27,17 +23,20 @@ bashCopy code
 
 Após ativar o ambiente virtual, instale as dependências necessárias executando o seguinte comando:
 
-bashCopy code
-
 `pip install flask sqlalchemy`
 
 ## Estrutura do Projeto
 
 Aqui está uma visão geral da estrutura básica do projeto:
 
-bashCopy code
+```text
+/projeto-flask     
+	/templates         
+		cadastro.html         
+		listagem.html     
+	app.py
+```
 
-`/projeto-flask     /templates         cadastro.html         listagem.html     app.py`
 
 - `app.py`: O arquivo principal do Flask que contém toda a lógica do backend.
 - `templates/`: Diretório que contém os templates HTML para a aplicação.
@@ -45,8 +44,6 @@ bashCopy code
 ## Executando a Aplicação
 
 Para executar a aplicação, use o seguinte comando no terminal, certificando-se de que você está no diretório do projeto:
-
-bashCopy code
 
 `flask run`
 
