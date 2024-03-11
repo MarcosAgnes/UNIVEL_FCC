@@ -13,7 +13,9 @@ Recomenda-se usar um ambiente virtual para isolar as dependências do projeto. V
 
 ### Para usuários de Linux/Mac:
 
-`python3 -m venv venv source venv/bin/activate`
+`Python3 -m venv .venv`
+
+`source .venv/bin/activate`
 
 ### Para usuários de Windows:
 
@@ -23,7 +25,8 @@ Recomenda-se usar um ambiente virtual para isolar as dependências do projeto. V
 
 Após ativar o ambiente virtual, instale as dependências necessárias executando o seguinte comando:
 
-`pip install flask sqlalchemy`
+`pip install flask sqlalchemy flask_sqlalchemy`
+
 
 ## Estrutura do Projeto
 
